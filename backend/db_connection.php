@@ -1,15 +1,15 @@
 <?php
 /* ============================================
-   🔐 CONEXIÓN SEGURA A BASE DE DATOS - MySQLi
+   🔐 UTILIZA LAS CREDENCIALES CORRESPONDIENTES
    ============================================ */
 
 class Database {
     private $conn;
-    private $host     = "127.0.0.1";
-    private $user     = "Agora";
-    private $password = "CARLAYCRISTIAN12";
-    private $database = "db_Agora";
-    private $port     = 3306;
+    private $host     
+    private $user   
+    private $password  
+    private $database 
+    private $port     
 
     public function __construct() {
         // Crear conexión con MySQLi
